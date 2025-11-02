@@ -1,4 +1,4 @@
-import CartWidget from './CartWidget.jsx'
+import CartWidget from "./CartWidget.jsx";
 
 export default function NavBar() {
   return (
@@ -11,8 +11,8 @@ export default function NavBar() {
         <a href="#">Contacto</a>
       </nav>
 
-      {/* CartWidget se renderiza dentro de NavBar */}
+      {}
       <CartWidget count={2} />
     </header>
-  )
+  );
 }
