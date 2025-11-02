@@ -1,0 +1,31 @@
+:root { font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; }
+
+body { margin: 0; background: #0b0d12; color: #e7e9ee; }
+
+.navbar {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 14px 20px; position: sticky; top: 0;
+  background: #111522; border-bottom: 1px solid #1f2538;
+}
+
+.navbar__logo { font-weight: 700; letter-spacing: .3px; }
+
+.navbar__links { display: flex; gap: 16px; }
+.navbar__links a {
+  color: #e7e9ee; text-decoration: none; opacity: .9;
+}
+.navbar__links a:hover { opacity: 1; text-decoration: underline; }
+
+.cart {
+  position: relative; border: 1px solid #2a3250; background: #161b2b;
+  color: #e7e9ee; border-radius: 8px; padding: 8px 10px; cursor: pointer;
+}
+.cart__badge {
+  position: absolute; top: -6px; right: -6px;
+  background: #41d1b7; color: #0b0d12; font-weight: 700;
+  border-radius: 999px; padding: 2px 6px; font-size: 12px;
+  border: 2px solid #0b0d12;
+}
+
+.container { max-width: 1000px; margin: 32px auto; padding: 0 20px; }
+h1 { margin: 0 0 12px; font-size: 28px; }
